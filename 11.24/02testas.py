@@ -23,11 +23,17 @@ def choiceOpt(chc, mny):
         else:
             mny -= remove
     elif chc == 4:
-        print(f'Viso Gero')
         goodbye += 1
+        print(f'Viso Gero')
     else:
         print('BAD NUMBER')
 
 while goodbye == 0:
     print(f'SSSSSSSSSSSSSSSSSSSSSS {goodbye}')
-    output(money)
+    if goodbye == 0:
+        output(money)
+    else:
+        print('DISABLE@!!!!!!!!!!!')
+
+
+# ADD RETURN AND FIX CODE
